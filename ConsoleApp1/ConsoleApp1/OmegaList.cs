@@ -1,61 +1,130 @@
-﻿
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
-    public class OmegaList
+    public class OmegaList : IEnumerable<int>
     {
-        private static int[] newList = new int[0];
+        private int[] list;
+        int count, capacity;
 
-        public static int Count => newList.Length;
+        public int this[int i]
+        {
+            set { list[i] = value; }
+            get { return list[i]; }
+        }
+
+        public int Count => list.Length;
 
         public OmegaList(params int[] args)
         {
-            newList = new int[args.Length];
-            foreach (var i in newList)
+            list = new int[args.Length];
+            foreach (var i in list)
             {
-                newList[i] = args[i];
+                list[i] = args[i];
             }
         }
 
-        public static int[] AddElement(int number)
+        public void AddElement(int number)
         {
-            var oneMoreList = new int[newList.Length + 1];
-            newList.CopyTo(oneMoreList, 0);
-            oneMoreList[oneMoreList.Length - 1] = number;
-            newList = oneMoreList;
-            return newList;
+            if (count == capacity)
+            {
+                capacity = capacity * 2 + 1;
+                Array.Resize(ref list, capacity);
+            }
+            list[count] = number;
+            count++;
+        }
+        
+        public void AddRange(IEnumerable<int> numbers)
+        {
+            foreach (var item in numbers)
+            {
+                AddElement(item);
+            }
+        }
+        public int RemoveRange(IEnumerable<int> numbers)
+        {
+            var countDeletedElements = 0;
+            foreach (var item in numbers)
+            {
+                if (RemoveElement(item))
+                {
+                    countDeletedElements++;
+                }
+            }
+            return countDeletedElements;
         }
 
-        public static int[] DeleteElement(int num)
+        public bool RemoveElement(int value)
         {
-            for (int i = num; i < newList.Length; i++)
-            {
-                if(i != newList.Length - 1)
-                newList[i] = newList[i + 1];
-            }
-            var oneMoreList = new int[newList.Length - 1];
-            newList.CopyTo(oneMoreList, 0);
+            var ind = FindElement(list, value);
 
-            newList = oneMoreList;
-            return newList;
+            if (ind != -1)
+            {
+                ShiftElement(ind);
+                if ((capacity - 1) / 2 == count)
+                {
+                    capacity = (capacity - 1) / 2;
+                    Array.Resize(ref list, capacity);
+                }
+                count--;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
-        public static bool Contains(int number)
+        private int FindElement(int[] array, int number)
         {
-            foreach (int i in newList)
+            for (var i = 0; i < array.Length; i++)
             {
-                return newList[i] == number;
+                if (array[i] == number)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        private void ShiftElement(int ind)
+        {
+            for (var i = ind; i < list.Length - 1; i++)
+            {
+                list[i] = list[i + 1];
             }
 
+            list[list.Length - 1] = 0;
+        }
+
+        public bool Contains(int number)
+        {
+            foreach (var i in list)
+            {
+                if(i == number)
+                    return true;
+            }
             return false;
         }
 
-        public static int[] Clear()
+        public void Clear()
         {
-            newList = null;
-            return newList;
+            var newList = new int[0];
+            list = newList;
         }
 
+        public IEnumerator<int> GetEnumerator()
+        {
+            foreach (var t in list)
+                yield return t;
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
     }
 }
