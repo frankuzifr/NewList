@@ -4,12 +4,12 @@ using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
-    public class OmegaList : IEnumerable<int>
+    public class OmegaList<T> : IEnumerable
     {
-        private int[] list;
+        private T[] list;
         int count, capacity;
 
-        public int this[int i]
+        public T this[int i]
         {
             set { list[i] = value; }
             get { return list[i]; }
@@ -23,7 +23,7 @@ namespace ConsoleApp1
             Array.Resize(ref list, capacity);
         }   
 
-        public void Add(int number)
+        public void Add(T number)
         {
             if (count == capacity)
             {
@@ -34,7 +34,7 @@ namespace ConsoleApp1
             count++;
         }
         
-        public void AddRange(IEnumerable<int> numbers)
+        public void AddRange(IEnumerable<T> numbers)
         {
             foreach (var item in numbers)
             {
@@ -43,7 +43,7 @@ namespace ConsoleApp1
         }
         
 
-        public bool Remove(int value)
+        public bool Remove(T value)
         {
             var ind = FindElement(list, value);
 
@@ -66,11 +66,11 @@ namespace ConsoleApp1
             }
         }
 
-        private int FindElement(int[] array, int number)
+        private int FindElement(T[] array, T element)
         {
             for (var i = 0; i < Count; i++)
             {
-                if (array[i] == number)
+                if (Equals(array[i], element))
                 {
                     return i;
                 }
@@ -84,10 +84,9 @@ namespace ConsoleApp1
             {
                 list[i] = list[i + 1];
             }
-            list[count - 1] = 0;
         }
 
-        public int RemoveRange(IEnumerable<int> numbers)
+        public int RemoveRange(IEnumerable<T> numbers)
         {
             var countDeletedElements = 0;
             foreach (var item in numbers)
@@ -100,11 +99,11 @@ namespace ConsoleApp1
             return countDeletedElements;
         }
         
-        public bool Contains(int number)
+        public bool Contains(T number)
         {
             foreach (var i in list)
             {
-                if(i == number)
+                if(Equals(i, number))
                     return true;
             }
             return false;
@@ -117,7 +116,7 @@ namespace ConsoleApp1
             capacity = 0;
         }
 
-        public IEnumerator<int> GetEnumerator()
+        public IEnumerator<T> GetEnumerator()
         {
             for (int i = 0; i < count; i++)
                 yield return list[i];

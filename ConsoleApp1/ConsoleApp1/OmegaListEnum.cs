@@ -4,12 +4,12 @@ using System.Transactions;
 
 namespace ConsoleApp1
 {
-    public class OmegaListEnum : IEnumerator
+    public class OmegaListEnum<T> : IEnumerator
     {
-        private int[] list;
+        private T[] list;
         private int position = -1;
 
-        public OmegaListEnum(int[] newList)
+        public OmegaListEnum(T[] newList)
         {
             list = newList;
         }
@@ -33,7 +33,7 @@ namespace ConsoleApp1
             }
         }
 
-        private int Current
+        private T Current
         {
             get
             {

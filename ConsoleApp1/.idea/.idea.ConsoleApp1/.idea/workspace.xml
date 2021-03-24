@@ -8,134 +8,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f71997b-e9f6-44d6-8611-5018f2a1cd36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/OmegaListTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/OmegaListTest.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/Microsoft.DotNet.InternalAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/NUnit3.TestAdapter.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/NUnit3.TestAdapter.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/NuGet.Frameworks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/System.Xml.XPath.XmlDocument.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/nunit.engine.api.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/nunit.engine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ref/OmegaListTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/testhost.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/ref/OmegaListTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/OmegaListTest.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/OmegaListTest.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/OmegaListTest.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OmegaListTest/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/OmegaList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/OmegaList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/OmegaListEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/OmegaListEnum.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/net5.0/ref/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/net5.0/ref/ConsoleApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ConsoleApp1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ref/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/net5.0/ref/ConsoleApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/OmegaListTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/OmegaListTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ConsoleApp1.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/OmegaListTest.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ref/OmegaListTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/bin/Debug/net5.0/ref/OmegaListTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/OmegaListTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/ref/OmegaListTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/Debug/net5.0/ref/OmegaListTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/OmegaListTest.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/OmegaListTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/OmegaListTest.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/OmegaListTest.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaListTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaListTest/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,15 +73,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/61F5185B-E9CF-48B9-8487-181D7861EB9C/41A/List.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/61F5185B-E9CF-48B9-8487-181D7861EB9C/E2/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Attributes/TestCaseAttribute.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/ConsoleApp1/OmegaListEnum.cs" />
       <option value="$PROJECT_DIR$/OmegaListTest/UnitTest1.cs" />
+      <option value="$PROJECT_DIR$/ConsoleApp1/OmegaListEnum.cs" />
       <option value="$PROJECT_DIR$/ConsoleApp1/Program.cs" />
-      <option value="$PROJECT_DIR$/OmegaListTest/OmegaListTest.cs" />
       <option value="$PROJECT_DIR$/ConsoleApp1/OmegaList.cs" />
+      <option value="$PROJECT_DIR$/OmegaListTest/OmegaListTest.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1q97xgnStMl7sbEIvrs5VXqKzBn" />
@@ -173,11 +91,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34950384" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34940413" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="RiderUnitTestingPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.ConsoleApp1">
@@ -211,6 +130,10 @@
       <workItem from="1616480233709" duration="36452000" />
       <workItem from="1616567029895" duration="456000" />
       <workItem from="1616567495121" duration="26961000" />
+      <workItem from="1616602533240" duration="5104000" />
+      <workItem from="1616611639214" duration="1001000" />
+      <workItem from="1616612820263" duration="2563000" />
+      <workItem from="1616615413023" duration="1609000" />
     </task>
     <servers />
   </component>

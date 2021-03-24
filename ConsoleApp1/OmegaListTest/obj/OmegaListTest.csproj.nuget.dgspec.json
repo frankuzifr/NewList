@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\OmegaListTest\\OmegaListTest.csproj": {}
+    "G:\\Test\\NewList\\ConsoleApp1\\OmegaListTest\\OmegaListTest.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "G:\\Test\\NewList\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "G:\\Test\\NewList\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\lavol\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "projectPath": "G:\\Test\\NewList\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\wasab\\.nuget\\packages\\",
+        "outputPath": "G:\\Test\\NewList\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lavol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\wasab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,34 +54,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\lavol\\.dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\OmegaListTest\\OmegaListTest.csproj": {
+    "G:\\Test\\NewList\\ConsoleApp1\\OmegaListTest\\OmegaListTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\OmegaListTest\\OmegaListTest.csproj",
+        "projectUniqueName": "G:\\Test\\NewList\\ConsoleApp1\\OmegaListTest\\OmegaListTest.csproj",
         "projectName": "OmegaListTest",
-        "projectPath": "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\OmegaListTest\\OmegaListTest.csproj",
-        "packagesPath": "C:\\Users\\lavol\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\OmegaListTest\\obj\\",
+        "projectPath": "G:\\Test\\NewList\\ConsoleApp1\\OmegaListTest\\OmegaListTest.csproj",
+        "packagesPath": "C:\\Users\\wasab\\.nuget\\packages\\",
+        "outputPath": "G:\\Test\\NewList\\ConsoleApp1\\OmegaListTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lavol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\wasab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
-                "projectPath": "D:\\Projects\\NewList\\NewList\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj"
+              "G:\\Test\\NewList\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+                "projectPath": "G:\\Test\\NewList\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj"
               }
             }
           }
@@ -122,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\lavol\\.dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

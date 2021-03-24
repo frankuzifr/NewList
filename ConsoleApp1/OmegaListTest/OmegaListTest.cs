@@ -1,25 +1,27 @@
-using System.Linq;
 using ConsoleApp1;
 using NUnit.Framework;
 
 namespace OmegaListTest
 {
-    public class OmegaListTest
+    public class OmegaListTest<T>
     {
         [Test]
-        public void Count_ListWithTwoElements_Two()
+        [TestCase (new[]{1, 2, 3}, 3)]
+        [TestCase(new[]{"a", "b", "c", "d"}, 4)]
+        [TestCase(new[]{.12f, .35f, .02f, 1.26f, 3.65f}, 5)]
+        public void Count_ManyElementsAndRequiredAmountElements_CountElements(T[] many, T amount)
         {
-            var omegaLul = new OmegaList(5){1, 4};
-            Assert.AreEqual(omegaLul.Count, 2);
+            var omegaLul = new OmegaList<T>();
+            Assert.AreEqual(omegaLul.Count, amount);
         }
 
         [Test]
-        [TestCase(new int[]{1, 2, 3}, 2)]
-        [TestCase(new int[]{5, 4, 3, 7}, 5)]
-        [TestCase(new int[]{8}, 8)]
-        public void Contains_ManyNumbersAndNumberOfMany_True(int[] many, int sought)
+        [TestCase(new[]{1, 2, 3}, 2)]
+        [TestCase(new[]{"a", "b", "c", "d"}, "b")]
+        [TestCase(new[]{.12f, .35f, .02f, 1.26f, 3.65f}, .35f)]
+        public void Contains_ManyNumbersAndNumberOfMany_True(T[] many, T sought)
         {
-            var omegaLul = new OmegaList(){};
+            var omegaLul = new OmegaList<T>();
             omegaLul.AddRange(many);
             var contains = omegaLul.Contains(sought);
             Assert.AreEqual(contains, true);
@@ -27,24 +29,22 @@ namespace OmegaListTest
 
         [Test]
         [TestCase(2)]
-        [TestCase(3)]
-        [TestCase(4)]
-        [TestCase(5)]
-        public void Add_SameElement_ElementWasAdded(int element)
+        [TestCase("b")]
+        [TestCase(.29f)]
+        public void Add_SameElement_ElementWasAdded(T element)
         {
-            var omegaLul = new OmegaList() { };
+            var omegaLul = new OmegaList<T>();
             omegaLul.Add(element);
             Assert.AreEqual(omegaLul[omegaLul.Count - 1], element);
         }
 
         [Test]
-        [TestCase(new int []{1, 2, 3})]
-        [TestCase(new int []{1, 2, 3, 4, 5})]
-        [TestCase(new int []{1, 2, 3, 4, 5, 6, 7})]
-        [TestCase(new int []{1, 2, 3, 4, 5, 6, 7, 8, 9})]
-        public void AddRange_ManyElements_ManyElementsAdded(int[] rangeElements)
+        [TestCase(new[]{1, 2, 3})]
+        [TestCase(arg: new string[] { "a", "b" })] //конфликт перегрузки между двумя конструкторами TestCaseAttribute
+        [TestCase(new[]{.12f, .35f, .02f, 1.26f, 3.65f})]
+        public void AddRange_ManyElements_ManyElementsAdded(T[] rangeElements)
         {
-            var omegaLul = new OmegaList();
+            var omegaLul = new OmegaList<T>();
             omegaLul.AddRange(rangeElements);
             for (var i = 0; i < omegaLul.Count; i++)
             {
@@ -53,12 +53,12 @@ namespace OmegaListTest
         }
 
         [Test]
-        [TestCase(new int []{5, 1, 7, 8}, 3)]
-        [TestCase(new int []{10, 15, 14, 9, 4, 10}, 2)]
-        [TestCase(new int []{1, 9, 7, 2}, 4)]
-        public void Remove_ManyElementsAndElementOfMany_TrueOnRemovedAndFalseOnContains(int[] many, int removeElementValue)
+        [TestCase(new[]{5, 1, 7, 8}, 3)]
+        [TestCase(new[]{"a", "b", "c", "d"}, "b")]
+        [TestCase(new[]{.25f, .36f, 1.65f, .39f}, .36f)]
+        public void Remove_ManyElementsAndElementOfMany_TrueOnRemovedAndFalseOnContains(T[] many, T removeElementValue)
         {
-            var omegaLul = new OmegaList(){1, 2, 3, 4, 5};
+            var omegaLul = new OmegaList<T>();
             omegaLul.AddRange(many);
             var removed = omegaLul.Remove(removeElementValue);
             Assert.AreEqual(removed, true);
@@ -67,14 +67,13 @@ namespace OmegaListTest
         }
 
         [Test]
-        [TestCase (new[]{1, 2, 3}, new int[]{10, 11}, new int[] {1, 2, 3}, 2)]
-        [TestCase (new[]{1, 2, 3, 4}, new int[]{1, 10, 11}, new int[] {2, 3, 4}, 3)]
-        [TestCase (new[]{1, 2}, new int[]{10, 11}, new int[] {1, 2}, 2)]
-        [TestCase (new int []{7, 8, 9}, new int[]{8, 9, 10, 11}, new int[] {7}, 4)]
+        [TestCase (new[]{1, 2, 3}, new[]{10, 11}, new[] {1, 2, 3}, 2)]
+        [TestCase (new[]{"a", "b", "c", "d"}, new[]{"a", "b", "c"}, new[] {"d"}, 3)]
+        [TestCase (new[]{.15f, .65f, .34f, 1.32f, 3.25f}, new[]{.15f, 1.32f}, new[] {.65f, .34f, 3.25f}, 2)]
         public void RemoveRange_ManyElementsAndRemovedSetElementsAndFiniteSetElements_CountRemovedElementsAndElementsWasRemoved
-            (int[] many, int[] removeElementsValue, int[] resultMany, int countRemovedElements)
+            (T[] many, T[] removeElementsValue, T[] resultMany, int countRemovedElements)
         {
-            var omegaLul = new OmegaList(){10, 11};
+            var omegaLul = new OmegaList<T>();
             omegaLul.AddRange(many);
             var count = omegaLul.RemoveRange(removeElementsValue);
             Assert.AreEqual(count, countRemovedElements);
@@ -87,9 +86,23 @@ namespace OmegaListTest
         [Test]
         public void Clear_Nothing_CountIsZero()
         {
-            var omegaLul = new OmegaList() {1, 2, 3, 4, 5};
+            var omegaLul = new OmegaList<T>();
             omegaLul.Clear();
             Assert.AreEqual(omegaLul.Count, 0);
         }
+        
     }
+
+    /*public class Test
+    {
+        
+        [Test]
+        public void Clear_Nothing_CountIsZero2()
+        {
+            var omegaLul = new OmegaList<int>(){1, 2};
+            omegaLul.Clear();
+            Assert.AreEqual(omegaLul.Count, 0);
+        }
+        
+    }*/
 }

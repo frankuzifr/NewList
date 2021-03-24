@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-        private static OmegaList newList = new OmegaList(5){2, 4, 2, 4, 6};
+        private static OmegaList<string> newList = new OmegaList<string>(5){"a", "b", "2", "v", "6"};
         private static List<int> originalList = new List<int>(100){2};
 
         static void Main(string[] args)
@@ -32,8 +32,8 @@ namespace ConsoleApp1
             Console.WriteLine(value2 + " ");
             Console.WriteLine();
 
-            var two = (from u in newList where u == 2 select u).Take(2);
-            newList.RemoveRange(new []{4, 2});
+           
+            //newList.RemoveRange(new []{4, 2});
             foreach (var item in newList)
             {
                 Console.Write(item + " ");
