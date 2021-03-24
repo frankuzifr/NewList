@@ -15,18 +15,15 @@ namespace ConsoleApp1
             get { return list[i]; }
         }
 
-        public int Count => list.Length;
+        public int Count => count;
 
-        public OmegaList(params int[] args)
+        public OmegaList(int capacity = 0)
         {
-            list = new int[args.Length];
-            foreach (var i in list)
-            {
-                list[i] = args[i];
-            }
-        }
+            capacity = this.capacity;
+            Array.Resize(ref list, capacity);
+        }   
 
-        public void AddElement(int number)
+        public void Add(int number)
         {
             if (count == capacity)
             {
@@ -41,29 +38,19 @@ namespace ConsoleApp1
         {
             foreach (var item in numbers)
             {
-                AddElement(item);
+                Add(item);
             }
         }
-        public int RemoveRange(IEnumerable<int> numbers)
-        {
-            var countDeletedElements = 0;
-            foreach (var item in numbers)
-            {
-                if (RemoveElement(item))
-                {
-                    countDeletedElements++;
-                }
-            }
-            return countDeletedElements;
-        }
+        
 
-        public bool RemoveElement(int value)
+        public bool Remove(int value)
         {
             var ind = FindElement(list, value);
 
             if (ind != -1)
             {
-                ShiftElement(ind);
+                
+                ShiftElements(ind);
                 if ((capacity - 1) / 2 == count)
                 {
                     capacity = (capacity - 1) / 2;
@@ -71,6 +58,7 @@ namespace ConsoleApp1
                 }
                 count--;
                 return true;
+                
             }
             else
             {
@@ -80,7 +68,7 @@ namespace ConsoleApp1
 
         private int FindElement(int[] array, int number)
         {
-            for (var i = 0; i < array.Length; i++)
+            for (var i = 0; i < Count; i++)
             {
                 if (array[i] == number)
                 {
@@ -90,16 +78,28 @@ namespace ConsoleApp1
             return -1;
         }
 
-        private void ShiftElement(int ind)
+        private void ShiftElements(int ind)
         {
-            for (var i = ind; i < list.Length - 1; i++)
+            for (var i = ind; i < Count - 1; i++)
             {
                 list[i] = list[i + 1];
             }
-
-            list[list.Length - 1] = 0;
+            list[count - 1] = 0;
         }
 
+        public int RemoveRange(IEnumerable<int> numbers)
+        {
+            var countDeletedElements = 0;
+            foreach (var item in numbers)
+            {
+                if (Remove(item))
+                {
+                    countDeletedElements++;
+                }
+            }
+            return countDeletedElements;
+        }
+        
         public bool Contains(int number)
         {
             foreach (var i in list)
@@ -112,14 +112,15 @@ namespace ConsoleApp1
 
         public void Clear()
         {
-            var newList = new int[0];
-            list = newList;
+            Array.Resize(ref list, 0);
+            count = 0;
+            capacity = 0;
         }
 
         public IEnumerator<int> GetEnumerator()
         {
-            foreach (var t in list)
-                yield return t;
+            for (int i = 0; i < count; i++)
+                yield return list[i];
         }
 
         IEnumerator IEnumerable.GetEnumerator()
